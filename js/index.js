@@ -1,6 +1,6 @@
 AOS.init();
 
-const delay1 = 500;
+const delay1 = 100;
 const delay2 = delay1 + 300; 
 const delay3 = delay2 + 300 + 300; 
 
