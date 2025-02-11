@@ -1,9 +1,5 @@
 AOS.init();
 
-const delay1 = 100;
-const delay2 = delay1 + 300; 
-const delay3 = delay2 + 300 + 300; 
-
 const animation_1 = () => {
   document.querySelector("#intro_logo").classList.add("d-none");
 };
@@ -30,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelector("#img_hero_1").classList.remove("img_left_right");
   document.querySelector("#img_hero_2").classList.remove("img_right_left");
 
-  setTimeout(animation_1, delay1);
-  setTimeout(animation_2, delay2);
-  setTimeout(animation_3, delay3);
+  setTimeout(animation_1, 500);
+  setTimeout(animation_2);
+  setTimeout(animation_3);
 });
